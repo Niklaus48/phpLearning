@@ -9,7 +9,7 @@ $array3 = array("Amin"=> 18,"Negin"=> 19,"Ali"=>17);
 
 //how you can add an element at the end of an array
 $array[] = "Nima";
-array_push($array,"Amir");
+echo array_push($array,"Amir");
 
 //how you can remove an element at the end of an array
 array_pop($array);
@@ -21,20 +21,20 @@ array_shift($array);
 array_unshift($array,"Javad");
 
 //how you can get lenght of an array
-count($array);
-sizeof($array);
+echo count($array);
+echo sizeof($array);
 
 //how you can check if an element exist in array and also if you set the third input to true this function check for their types too
-in_array("Negin",$array,false);
+echo in_array("Negin",$array,false);
 
 //this function serarch in array to find an element and if was success it return index of that element and also can check their types to
-array_search(17,$array,false);
+echo array_search(17,$array,false);
 
 //point to the First element of an array and return the value of that
-current($array);
+echo current($array);
 
 //reset the pointer and return it to the first element of an array
-reset($array);
+echo reset($array);
 
 // Move The Pointer to the next element
 next($array);
@@ -46,7 +46,7 @@ prev($array);
 end($array);
 
 //return the index of pointed element
-key($array);
+echo key($array);
 
 //sort an array based on its values and if array contain both string and numbers the string values have more priority than numbers
 //and strings are sorted based on english alpahbet (A to Z)
