@@ -1,21 +1,14 @@
 <?php
 
 
-//how you print
-echo "Hello World";
-
-$a = array("hello","salam",20);
-
-//how you make a function
-function  func()
-{
-    echo "ColorFull Flag";
+$dice = rand(1,6);
+echo "<p> you roled $dice </p>";
+if($dice == 6){
+    echo "You Won";
+}
+else{
+    echo "Nale Kon Lasheks";
 }
 
-//how you call a function
-func();
-
-//this function give us a good information about our variables like their lenghts and types and...
-var_dump($a);
-
+echo "<p>Agha Chakerim ke Play Dadi</p>";
 
